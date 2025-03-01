@@ -7153,6 +7153,18 @@
 		(uuid 6507226e-8b51-42c8-8e93-897670121c47)
 	)
 	(rectangle
+		(start 107.95 99.695)
+		(end 142.24 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6a160ca2-cdfc-44e3-b4a8-e06ee7e552cf)
+	)
+	(rectangle
 		(start 180.34 12.065)
 		(end 231.14 47.625)
 		(stroke
@@ -7260,7 +7272,7 @@
 	)
 	(text "Level Shifters\nDisplay\n+ connector"
 		(exclude_from_sim no)
-		(at 145.288 112.522 0)
+		(at 132.334 112.776 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7292,9 +7304,18 @@
 		)
 		(uuid "fdba2ba2-0fc1-44a7-b0e6-b81b8596484a")
 	)
+	(label "GPIO6"
+		(at 158.75 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "034c52ed-9f45-4c8c-bc93-b9c95b9aa6a9")
+	)
 	(label "GPIO29"
 		(at 87.63 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7305,7 +7326,6 @@
 	)
 	(label "GPIO12"
 		(at 87.63 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7314,9 +7334,18 @@
 		)
 		(uuid "09c417b2-ead1-4385-b0ae-a4baa7b25f78")
 	)
+	(label "GPIO2"
+		(at 158.75 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09e4a91c-b45a-4577-99ff-d856b02b49c2")
+	)
 	(label "GPIO14"
 		(at 87.63 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7327,7 +7356,6 @@
 	)
 	(label "GPIO9"
 		(at 87.63 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7337,8 +7365,7 @@
 		(uuid "0d9fdec6-738c-4a6f-bc72-9f62d790570d")
 	)
 	(label "GPIO15"
-		(at 118.11 133.35 180)
-		(fields_autoplaced yes)
+		(at 158.75 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7349,7 +7376,6 @@
 	)
 	(label "GPIO25"
 		(at 87.63 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7360,7 +7386,6 @@
 	)
 	(label "GPIO26"
 		(at 87.63 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7371,7 +7396,6 @@
 	)
 	(label "GPIO8"
 		(at 45.72 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,9 +7404,18 @@
 		)
 		(uuid "123862d9-f476-4a52-9fac-1022ab9c4629")
 	)
+	(label "GPIO5"
+		(at 158.75 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13fc398d-6f98-46c2-8586-526a5ab45efb")
+	)
 	(label "GPIO12"
 		(at 35.56 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7393,7 +7426,6 @@
 	)
 	(label "QSPI_SS"
 		(at 25.4 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7404,7 +7436,6 @@
 	)
 	(label "GPIO21"
 		(at 87.63 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7415,7 +7446,6 @@
 	)
 	(label "GPIO26"
 		(at 25.4 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7426,7 +7456,6 @@
 	)
 	(label "CC1"
 		(at 261.62 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7435,9 +7464,18 @@
 		)
 		(uuid "22d353b7-3dd8-42bd-9fc7-245789be3281")
 	)
+	(label "GPIO27"
+		(at 187.96 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "269af26b-a180-4db0-9ebf-8a1afef33e93")
+	)
 	(label "~{USB_BOOT}"
 		(at 105.41 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7446,9 +7484,18 @@
 		)
 		(uuid "2b1a5410-55db-4f8e-b2de-98e876b35a29")
 	)
+	(label "GPIO22"
+		(at 187.96 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c1407f2-5f58-49c1-a35e-e6c38298a503")
+	)
 	(label "QSPI_SD3"
 		(at 170.18 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7459,7 +7506,6 @@
 	)
 	(label "GPIO3"
 		(at 80.01 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7470,7 +7516,6 @@
 	)
 	(label "GPIO9"
 		(at 43.18 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7481,7 +7526,6 @@
 	)
 	(label "GPIO13"
 		(at 33.02 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7492,7 +7536,6 @@
 	)
 	(label "GPIO11"
 		(at 38.1 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7503,7 +7546,6 @@
 	)
 	(label "GPIO22"
 		(at 30.48 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7514,7 +7556,6 @@
 	)
 	(label "GPIO2"
 		(at 87.63 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7525,7 +7566,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 25.4 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7536,7 +7576,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 170.18 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7547,7 +7586,6 @@
 	)
 	(label "GPIO17"
 		(at 17.78 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7558,7 +7596,6 @@
 	)
 	(label "GPIO19"
 		(at 87.63 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7569,7 +7606,6 @@
 	)
 	(label "GPIO13"
 		(at 87.63 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7616,6 @@
 	)
 	(label "D_+"
 		(at 38.1 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7589,9 +7624,18 @@
 		)
 		(uuid "5abe09c1-0e24-4fc8-8b9a-140c7209e7af")
 	)
+	(label "GPIO18"
+		(at 187.96 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b377c14-88ef-446b-a1fa-7950828ef179")
+	)
 	(label "GPIO7"
 		(at 35.56 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7602,7 +7646,6 @@
 	)
 	(label "GPIO27"
 		(at 22.86 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7613,7 +7656,6 @@
 	)
 	(label "GPIO20"
 		(at 25.4 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7624,7 +7666,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 25.4 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7635,7 +7676,6 @@
 	)
 	(label "GPIO8"
 		(at 87.63 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7646,7 +7686,6 @@
 	)
 	(label "GPIO6"
 		(at 87.63 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7657,7 +7696,6 @@
 	)
 	(label "GPIO27"
 		(at 87.63 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7668,7 +7706,6 @@
 	)
 	(label "GPIO1"
 		(at 87.63 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,7 +7716,6 @@
 	)
 	(label "GPIO16"
 		(at 87.63 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7690,7 +7726,6 @@
 	)
 	(label "GPIO25"
 		(at 27.94 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7700,8 +7735,7 @@
 		(uuid "7921f33e-2631-424f-9f42-940b1fffc67e")
 	)
 	(label "GPIO16"
-		(at 118.11 125.73 180)
-		(fields_autoplaced yes)
+		(at 158.75 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7712,7 +7746,6 @@
 	)
 	(label "GPIO3"
 		(at 87.63 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7723,7 +7756,6 @@
 	)
 	(label "GPIO0"
 		(at 77.47 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7734,7 +7766,6 @@
 	)
 	(label "GPIO5"
 		(at 40.64 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7745,7 +7776,6 @@
 	)
 	(label "GPIO18"
 		(at 87.63 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7754,9 +7784,18 @@
 		)
 		(uuid "8004dcd3-a369-4f32-b21c-20fc842adc7c")
 	)
+	(label "GPIO11"
+		(at 158.75 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "803d01a4-deb2-4480-8629-ea067c2049ea")
+	)
 	(label "GPIO20"
 		(at 87.63 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7767,7 +7806,6 @@
 	)
 	(label "GPIO28"
 		(at 87.63 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,9 +7814,28 @@
 		)
 		(uuid "8921a10f-8f88-43dc-9f74-f6a1ddfe7df5")
 	)
+	(label "GPIO19"
+		(at 187.96 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ce55a35-cbb2-4f30-a107-4b7ade7a8721")
+	)
+	(label "GPIO0"
+		(at 158.75 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f5da255-0133-48df-83d4-ffcde6157a0a")
+	)
 	(label "GPIO29"
 		(at 17.78 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7789,7 +7846,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 109.22 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7798,9 +7854,18 @@
 		)
 		(uuid "94d36548-719f-4f19-ac80-a2c9a5e43969")
 	)
+	(label "GPIO24"
+		(at 187.96 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bb50172-98e8-4d98-8691-b68d58d76bae")
+	)
 	(label "D_-"
 		(at 38.1 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7811,7 +7876,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 170.18 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7822,7 +7886,6 @@
 	)
 	(label "GPIO2"
 		(at 74.93 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7831,9 +7894,28 @@
 		)
 		(uuid "a34db6e5-36d0-4a13-8ab5-4cf3f9391c57")
 	)
+	(label "GPIO29"
+		(at 187.96 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5421ee0-f5fa-4cb4-b81e-5265085ae504")
+	)
+	(label "GPIO1"
+		(at 158.75 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a57e3353-5506-4702-9df0-2ae7624703e0")
+	)
 	(label "GPIO22"
 		(at 87.63 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,7 +7926,6 @@
 	)
 	(label "GPIO10"
 		(at 87.63 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7853,9 +7934,28 @@
 		)
 		(uuid "a7e18ced-66e6-49c6-ac8f-6fc01b4939b5")
 	)
+	(label "GPIO23"
+		(at 187.96 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8126ae5-96d2-4829-85e2-913dd7a9cc1f")
+	)
+	(label "GPIO8"
+		(at 158.75 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab865daf-9a8d-47c9-8700-fd441a4a1b08")
+	)
 	(label "GPIO0"
 		(at 87.63 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +7966,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 25.4 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7877,7 +7976,6 @@
 	)
 	(label "GPIO24"
 		(at 30.48 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7888,7 +7986,6 @@
 	)
 	(label "GPIO6"
 		(at 38.1 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7899,7 +7996,6 @@
 	)
 	(label "GPIO15"
 		(at 87.63 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7910,7 +8006,6 @@
 	)
 	(label "GPIO18"
 		(at 20.32 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7921,7 +8016,6 @@
 	)
 	(label "XTAL_O"
 		(at 204.47 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,9 +8024,18 @@
 		)
 		(uuid "b90a7262-fc77-408b-a995-db4586b58839")
 	)
+	(label "GPIO3"
+		(at 158.75 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb9f5e94-09ff-4cf3-99b3-28a9f5e6899c")
+	)
 	(label "CC2"
 		(at 261.62 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7941,9 +8044,18 @@
 		)
 		(uuid "bcf923cd-df86-4628-b08d-fe8183a36197")
 	)
+	(label "GPIO7"
+		(at 158.75 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd13a237-c189-4197-88b7-6de6657d7ca4")
+	)
 	(label "QSPI_SD2"
 		(at 25.4 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7952,9 +8064,28 @@
 		)
 		(uuid "be757ef8-b64b-468b-9d0b-b2bce2e241b9")
 	)
+	(label "GPIO26"
+		(at 187.96 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1ba1840-4522-4cf7-b5e5-c7f3ee116086")
+	)
+	(label "GPIO13"
+		(at 158.75 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1f69eff-ea51-4e20-9372-1972a5278062")
+	)
 	(label "QSPI_SD0"
 		(at 25.4 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7965,7 +8096,6 @@
 	)
 	(label "GPIO7"
 		(at 87.63 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,7 +8106,6 @@
 	)
 	(label "GPIO24"
 		(at 87.63 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7985,9 +8114,18 @@
 		)
 		(uuid "c9e3354f-346e-443c-ae3e-c1da830c5589")
 	)
+	(label "GPIO4"
+		(at 158.75 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbf0d8f2-a2ff-45df-85e0-354dc80e575f")
+	)
 	(label "GPIO1"
 		(at 72.39 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7996,9 +8134,18 @@
 		)
 		(uuid "cc3b484f-f26d-40a4-b26f-2e3ea768455e")
 	)
+	(label "GPIO20"
+		(at 187.96 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d157a564-50c0-485e-800c-4a10e1b71271")
+	)
 	(label "GPIO4"
 		(at 43.18 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8008,8 +8155,17 @@
 		(uuid "d41ae15a-381f-4643-9764-d9e52eac9cf3")
 	)
 	(label "GPIO17"
+		(at 187.96 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7d06610-7b10-480c-97ff-db9e0cf1e90f")
+	)
+	(label "GPIO17"
 		(at 87.63 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8019,8 +8175,7 @@
 		(uuid "d957f03d-edd9-4f8e-9516-c26669fe0a2c")
 	)
 	(label "GPIO14"
-		(at 118.11 129.54 180)
-		(fields_autoplaced yes)
+		(at 158.75 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8029,9 +8184,18 @@
 		)
 		(uuid "dbc2d37c-bd26-45ed-b89b-38473fd557be")
 	)
+	(label "GPIO25"
+		(at 187.96 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e60ee104-a09e-4715-a95a-3683dd46e8e3")
+	)
 	(label "GPIO5"
 		(at 87.63 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8042,7 +8206,6 @@
 	)
 	(label "GPIO10"
 		(at 40.64 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8053,7 +8216,6 @@
 	)
 	(label "GPIO28"
 		(at 20.32 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,9 +8224,18 @@
 		)
 		(uuid "e8f4d3e8-55f6-49c9-9010-12f3d208b742")
 	)
+	(label "GPIO12"
+		(at 158.75 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eca753b0-79e9-4ebc-a911-9bde7bb3594e")
+	)
 	(label "GPIO23"
 		(at 87.63 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8075,7 +8246,6 @@
 	)
 	(label "GPIO23"
 		(at 33.02 25.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8085,8 +8255,17 @@
 		(uuid "ece85e8d-0c5c-4d8c-bc8a-d96229ecc570")
 	)
 	(label "GPIO21"
+		(at 187.96 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee93dc6e-2a1a-4576-bf26-6c02f9c13049")
+	)
+	(label "GPIO21"
 		(at 27.94 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8097,7 +8276,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 109.22 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8106,9 +8284,28 @@
 		)
 		(uuid "f062f91e-05bc-4bfe-8771-7ff60bb46a55")
 	)
+	(label "GPIO9"
+		(at 158.75 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f19d756f-775a-4cde-b665-d50174c6c7be")
+	)
+	(label "GPIO10"
+		(at 158.75 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f22f58e5-5f1a-4406-84c9-7c7708f66a1a")
+	)
 	(label "GPIO4"
 		(at 87.63 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8119,7 +8316,6 @@
 	)
 	(label "GPIO19"
 		(at 22.86 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8130,7 +8326,6 @@
 	)
 	(label "QSPI_SS"
 		(at 119.38 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,9 +8334,18 @@
 		)
 		(uuid "fb93871a-edb5-43fb-88c3-08b8a79d90ea")
 	)
+	(label "GPIO28"
+		(at 187.96 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbf4c5f8-ffcc-4535-952f-71fca1ae7a67")
+	)
 	(label "GPIO11"
 		(at 87.63 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8416,7 +8620,7 @@
 	)
 	(global_label "Reset_3V3"
 		(shape input)
-		(at 163.83 119.38 180)
+		(at 127 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8426,7 +8630,7 @@
 		)
 		(uuid "58df26f3-2b84-46dd-9ab6-8ee5aed93fc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.9022 119.38 0)
+			(at 115.0722 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8774,7 @@
 	)
 	(global_label "CS_3V3"
 		(shape input)
-		(at 163.83 121.92 180)
+		(at 127 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8580,7 +8784,7 @@
 		)
 		(uuid "77a604b7-493b-433f-b5b2-5c4f49353748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6237 121.92 0)
+			(at 117.7937 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8840,7 @@
 	)
 	(global_label "CLK_3V3"
 		(shape input)
-		(at 163.83 124.46 180)
+		(at 127 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8646,7 +8850,7 @@
 		)
 		(uuid "82fe61d4-4745-4336-a6d0-1a6e94e4de1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5351 124.46 0)
+			(at 116.7051 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9390,7 @@
 	)
 	(global_label "DIN_3V3"
 		(shape input)
-		(at 163.83 127 180)
+		(at 127 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9196,7 +9400,7 @@
 		)
 		(uuid "f63b548b-2850-44e7-bcb8-aef3d19fc4c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8979 127 0)
+			(at 117.0679 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,6 +9429,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "012283e8-f0be-4463-8cb9-2ca1eabbd3c8")
+		(property "Reference" "J29"
+			(at 195.58 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a8209d-ef14-41a4-aafb-0c3832ab5588")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J29")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9288,6 +9559,140 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06af25d7-eb55-420b-b7b6-3ba731b4c638")
+		(property "Reference" "J6"
+			(at 166.37 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c9d0ee-e216-4951-98cf-7d1b58f795a5")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0af7a0ac-1897-410c-933d-0b40d06a1bf4")
+		(property "Reference" "J18"
+			(at 166.37 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310651d0-517a-49ba-9ee4-8b4535f5b33b")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -9437,7 +9842,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 163.83 135.89 90)
+		(at 127 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9445,7 +9850,7 @@
 		(dnp no)
 		(uuid "11ba72d1-62d2-4135-9ad1-bb9557630941")
 		(property "Reference" "#PWR035"
-			(at 167.64 135.89 0)
+			(at 130.81 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9859,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 137.795 0)
+			(at 123.19 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 135.89 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 135.89 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 135.89 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,6 +9901,73 @@
 			(project "fullsized keybored 3v3"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c42d76-fdff-48b7-8c55-95ad98b4b073")
+		(property "Reference" "J32"
+			(at 195.58 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec090c5-f166-4393-8a4b-28b6d2f63e9b")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -9635,7 +10107,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 163.83 114.3 180)
+		(at 127 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9644,7 +10116,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c4d3619-e95c-457b-a36e-3a64de7d246b")
 		(property "Reference" "#PWR034"
-			(at 163.83 107.95 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +10125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 110.49 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +10133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 114.3 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +10142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 114.3 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +10151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 114.3 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +10379,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.19 133.35 0)
+		(at 163.83 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9915,7 +10387,7 @@
 		(dnp no)
 		(uuid "20dbb49c-e166-41ee-bca1-4fabccae7fe7")
 		(property "Reference" "J10"
-			(at 125.73 132.715 0)
+			(at 166.37 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +10396,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 129.032 132.842 0)
+			(at 169.672 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +10405,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 123.19 133.35 0)
+			(at 163.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 133.35 0)
+			(at 163.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +10423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 133.35 0)
+			(at 163.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,6 +10648,140 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2969662e-c94a-4272-88d7-efab3732bb98")
+		(property "Reference" "J28"
+			(at 195.58 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593a1476-d20d-4512-b0bf-a007dbd9fc53")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b08dcc5-0bde-4039-8a6f-f1475f105426")
+		(property "Reference" "J25"
+			(at 195.58 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c3d7ab-4472-4328-870f-3b4a6b65ec3c")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -10588,6 +11194,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b76a283-e688-4acf-b20c-fa698899d64b")
+		(property "Reference" "J13"
+			(at 166.37 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1edf5b48-d1d8-4743-912b-f90e8758754c")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 149.86 86.36 0)
 		(unit 1)
@@ -10719,26 +11392,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 116.84 90)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4513dd4a-0f30-443c-836c-b25c73e47210")
-		(property "Reference" "#PWR047"
-			(at 167.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 160.02 116.8399 90)
+		(uuid "425bedfa-6ebd-4061-8423-1899023f599a")
+		(property "Reference" "J15"
+			(at 166.37 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,8 +11409,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 116.84 0)
+		(property "Value" "Conn_01x01"
+			(at 169.672 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,8 +11428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 116.84 0)
+		(property "Datasheet" "~"
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +11438,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 116.84 0)
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e3e7651-dd2f-4c10-a724-3854f50f0264")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4513dd4a-0f30-443c-836c-b25c73e47210")
+		(property "Reference" "#PWR047"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,6 +11598,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4723229d-d1ec-4470-b7c6-ad8eaf5e1c11")
+		(property "Reference" "J21"
+			(at 195.58 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c8e513-2882-467e-bcdf-f8059a95dc14")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -11009,7 +11816,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.19 129.54 0)
+		(at 163.83 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11017,7 +11824,7 @@
 		(dnp no)
 		(uuid "4a3f44e4-9b0c-4aa2-b385-042e32015c1f")
 		(property "Reference" "J4"
-			(at 125.73 128.905 0)
+			(at 166.37 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +11833,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 129.032 129.032 0)
+			(at 169.672 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11842,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 123.19 129.54 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +11851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 129.54 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +11860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 129.54 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,6 +11953,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50789b1c-87f3-44ef-8040-f8dace243daa")
+		(property "Reference" "J33"
+			(at 195.58 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd5a21e-97e1-4a49-a09f-ec8d51f2eda6")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -11859,6 +12733,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c978d9d-b7ec-4eca-a87f-cd3f9ee4468d")
+		(property "Reference" "J12"
+			(at 166.37 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe187fd-6a64-48da-b8d5-3d860292cc9f")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 186.69 67.31 0)
 		(unit 1)
@@ -11919,6 +12860,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd45570-6bd7-4960-afcc-9d228a6dd63a")
+		(property "Reference" "J19"
+			(at 166.37 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3e4ac8c-fc03-4813-8d5c-651a36a3cb25")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -12168,6 +13176,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e2ba5ee-b4ad-45eb-9c57-ef5e53fa955e")
+		(property "Reference" "J24"
+			(at 195.58 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "553da861-64c7-4376-b485-cee364f0a953")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 152.4 177.8 0)
 		(unit 1)
@@ -12364,6 +13439,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "SWD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "875f049d-8b79-4ea8-8254-ebebf5ac1297")
+		(property "Reference" "J27"
+			(at 195.58 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c04da04f-a594-47af-b4ca-2909b25c6445")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -12608,6 +13750,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f14844-348c-4c68-97cb-fb0cac155979")
+		(property "Reference" "J8"
+			(at 166.37 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0514b208-cc19-4a0b-b2b8-ee5353dcb938")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 125.73 177.8 0)
 		(unit 1)
@@ -12667,6 +13876,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95da139d-49f9-4f0c-b903-b4eed198c2ec")
+		(property "Reference" "J17"
+			(at 166.37 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd3a3529-9fba-4dde-a25a-01cde0447e95")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -12894,7 +14170,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.19 125.73 0)
+		(at 163.83 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12902,7 +14178,7 @@
 		(dnp no)
 		(uuid "99d77ee5-2b82-4204-80b0-fa5068e03377")
 		(property "Reference" "J3"
-			(at 125.73 125.095 0)
+			(at 166.37 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12911,7 +14187,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 129.032 125.222 0)
+			(at 169.672 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12920,7 +14196,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 123.19 125.73 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,7 +14205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 125.73 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +14214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 125.73 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,6 +14508,274 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14656be-a9e0-4eb4-8466-9f4589bbef26")
+		(property "Reference" "J20"
+			(at 166.37 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb97996-c374-4b78-91ae-63f4d568ce28")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2adebfd-caba-4315-bcbe-e2f922c1f4bc")
+		(property "Reference" "J14"
+			(at 166.37 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50b17041-12cc-475e-bc87-400574c50ced")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a417a8c1-4a9c-4fc9-94f6-517d45a6424c")
+		(property "Reference" "J30"
+			(at 195.58 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d70dc4-464b-465a-b767-d24e4665ddb7")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b30e45-61be-4b7a-80f6-453a9a698f5f")
+		(property "Reference" "J11"
+			(at 166.37 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98056c64-36f0-4a29-8b7a-ae47cab1ed23")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 93.98 0)
 		(unit 1)
@@ -13440,6 +14984,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae19a17c-f501-4ef4-a06f-bfade2c6e88a")
+		(property "Reference" "J7"
+			(at 166.37 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83a36506-e9ce-4734-b5a2-09fd8d1c427c")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 249.555 86.995 0)
 		(unit 1)
@@ -13512,6 +15123,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93ba6fd-bb2b-4ea2-ae59-e93dd0c53958")
+		(property "Reference" "J31"
+			(at 195.58 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db1bc1c-41ac-40c5-bd3d-cd9ef2624d64")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -13669,6 +15347,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be5e5959-eb2c-4f68-a668-c6d863c6a244")
+		(property "Reference" "J22"
+			(at 195.58 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70268ae3-6c62-4596-8404-ea7131211a39")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 222.885 86.995 0)
 		(unit 1)
@@ -13747,6 +15492,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7289da6-0207-47d5-a82f-bf352d15040b")
+		(property "Reference" "J5"
+			(at 166.37 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6582051d-7fc7-4954-9c2c-7f17cdfe9b4c")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 34.29 0)
 		(unit 1)
@@ -13814,7 +15626,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 168.91 119.38 0)
+		(at 132.08 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13823,7 +15635,7 @@
 		(fields_autoplaced yes)
 		(uuid "cacaa09a-6774-4d58-991a-b3946d9c2129")
 		(property "Reference" "J2"
-			(at 171.45 120.015 0)
+			(at 134.62 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13832,7 +15644,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 171.45 122.555 0)
+			(at 134.62 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,7 +15653,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 168.91 119.38 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,7 +15662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 119.38 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13859,7 +15671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 119.38 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,6 +15856,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 193.04 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf47882-9e17-40aa-91e8-dda90f963645")
+		(property "Reference" "J26"
+			(at 195.58 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 198.882 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5e639d-9a82-45c3-8bb6-4f82ea7345f1")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -14589,15 +16468,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 168.91 135.89 0)
+		(at 193.04 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e43ead54-259e-4337-9f5d-2ded3279364c")
-		(property "Reference" "J9"
-			(at 171.45 135.255 0)
+		(uuid "e2a95e06-a7e1-466d-b98a-7aa92787d877")
+		(property "Reference" "J23"
+			(at 195.58 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,16 +16485,17 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 163.068 131.572 0)
+			(at 198.882 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 168.91 135.89 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +16504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 135.89 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +16513,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 135.89 0)
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9e507d-81e7-4be1-82c9-118ed3fdd9e7")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 132.08 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43ead54-259e-4337-9f5d-2ded3279364c")
+		(property "Reference" "J9"
+			(at 134.62 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 126.238 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,6 +16738,73 @@
 			(project "fullsized keybored"
 				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 163.83 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb7e120f-7d78-44e8-a8eb-8ae1184f9df0")
+		(property "Reference" "J16"
+			(at 166.37 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 169.672 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf53c10-9c48-44a3-ba3e-4895edad1bb6")
+		)
+		(instances
+			(project "fullsized keybored 3v3"
+				(path "/70982de0-5eb8-47d6-81b3-49e09aa330d8"
+					(reference "J16")
 					(unit 1)
 				)
 			)
